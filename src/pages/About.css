@@ -1,0 +1,44 @@
+.box{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px #ccc;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+}
+.box .imagediv{
+    width: 40%;
+    height: 35em;
+}
+.imagediv .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box .details{
+    width: 50%;
+    padding: 5% 10%;
+}
+.details .title{
+    background-color: #B9C0CB;
+    width: 100%;
+    height: 100px;
+    padding: 0 10px;
+    color: white;
+    display:flex;
+    align-items: center;
+}
+.details .text {
+    width: 80%;
+    min-height: 100px;
+    height: auto;
+    float: right;
+    padding: 10px 0;
+}
+.details .icon {
+    width: 10%;
+    height: 10%;
+    object-fit: contain;
+}
