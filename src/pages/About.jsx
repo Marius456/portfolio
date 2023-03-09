@@ -4,6 +4,9 @@ export function About() {
     return (
         <>
             <div className="box">
+                <div className="imagediv">
+                    <img src="imgs/profile.jpg" className="image" />
+                </div>
                 <div className="details">
                     <div className="title">
                         <h1>Esu Marius Žilgužis</h1>
@@ -11,16 +14,63 @@ export function About() {
                     <div className="text">
                         <p>Baigęs kursus studentas be darbo patirties.</p>
                         <p>Baigiau KTU "Programų sistemų" studijas.</p>
-                        <a href="https://www.linkedin.com/in/marius-%C5%BEilgu%C5%BEis-827173242/">
-                            <img src="imgs/linkedin.png" className="icon" alt="LinkedIn" />
-                        </a>
-                        <a href="https://github.com/Marius456">
-                            <img src="imgs/github.png" className="icon" alt="Github" />
-                        </a>
+                        <a href='files/CV.pdf' download>Click to download</a>
                     </div>
                 </div>
-                <div className="imagediv">
-                    <img src="imgs/profile.jpg" className="image" />
+                <div className="info">
+                    <div className="title">
+                        IŠSILAVINIMAS
+                    </div>
+                    <div className="info-box">
+                        <p>
+                            Kauno technologijos universitetas
+                        </p>
+                        <p>
+                            Bakalauras
+                        </p>
+                        <p>
+                            Programų sistemos
+                        </p>
+                        <p>
+                            2017-2022
+                        </p>
+                        <p>
+                            Absolventas gali dirbti individualiai, nuotoliniu būdu ar įmonėse ir organizacijose kompiuterinių sistemų projektuotojo, programuotojo, testuotojo ir tinklo administratoriaus darbą, specifikuoti reikalavimus, kurti saityno programas, diegti ir prižiūrėti programų sistemas,vadovauti projektams
+                        </p>
+                    </div>
+                    <div className="info-box">
+                        <p>
+                            Žeimelio gimnazija
+                        </p>
+                        <p>
+                            Vidurinis išsilavinimas
+                        </p>
+                        <p>
+                            2005-2017
+                        </p>
+                    </div>
+                </div>
+                <div className="info">
+                    <div className="title">
+                        Darbo Patirtis
+                    </div>
+                    <div className="info-box">
+                        <p>
+                            Kauno miesto poliklinika
+                        </p>
+                        <p>
+                            Praktika
+                        </p>
+                        <p>
+                            IT pagalbinis darbuotojas
+                        </p>
+                        <p>
+                            01/02/2021 - 31/05/2021
+                        </p>
+                        <p>
+                            Sukuriau sportavimo planų planavimo ir sekimo sistemą, kurią apgyniau bakalaurinio darbo gynime.
+                        </p>
+                    </div>
                 </div>
             </div>
         </>
