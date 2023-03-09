@@ -14,15 +14,15 @@ export function About() {
                     <div className="text">
                         <p>Baigęs kursus studentas be darbo patirties.</p>
                         <p>Baigiau KTU "Programų sistemų" studijas.</p>
-                        <a href='files/CV.pdf' download>Click to download</a>
+                        <a href='files/CV.pdf' download>Atsisiųsti CV pdf failą</a>
                     </div>
                 </div>
                 <div className="info">
-                    <div className="title">
+                    <div className="title bold">
                         IŠSILAVINIMAS
                     </div>
                     <div className="info-box">
-                        <p>
+                        <p className="bold">
                             Kauno technologijos universitetas
                         </p>
                         <p>
@@ -39,7 +39,7 @@ export function About() {
                         </p>
                     </div>
                     <div className="info-box">
-                        <p>
+                        <p className="bold">
                             Žeimelio gimnazija
                         </p>
                         <p>
@@ -51,11 +51,11 @@ export function About() {
                     </div>
                 </div>
                 <div className="info">
-                    <div className="title">
+                    <div className="title bold">
                         Darbo Patirtis
                     </div>
                     <div className="info-box">
-                        <p>
+                        <p className="bold">
                             Kauno miesto poliklinika
                         </p>
                         <p>
