@@ -4,7 +4,7 @@
         "name": "Politicians tracker",
         "description": "Šis projektas skirtas analizuoti informaciją apie seimo narius.",
         "date": "2023-02",
-        "view_link": "",
+        "view_link": "https://marius456.github.io/politicians_tracker/",
         "code_link": "https://github.com/Marius456/politicians_tracker",
         "image": "imgs/politician_tracker.png",
         "technology": [
@@ -17,7 +17,7 @@
         "name": "E-shop",
         "description": "Creating an e-commerce website for learning purposes. While doing it I focus on learning Javascript and ReactJS framework.",
         "date": "2023-01",
-        "view_link": "",
+        "view_link": "https://marius456.github.io/eshop/",
         "code_link": "https://github.com/Marius456/eshop",
         "image": "imgs/eshop.png",
         "technology": [
@@ -29,7 +29,7 @@
         "name": "Sports activity planning and tracking system",
         "description": "This project was created for the final Bachelor's degree assessment.",
         "date": "2022-05",
-        "view_link": "",
+        "view_link": "https://marius456.github.io/ClientApp/",
         "code_link": "https://github.com/Marius456/GiveATry",
         "image": "imgs/giveatry.png",
         "technology": [
