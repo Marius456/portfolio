@@ -15,9 +15,11 @@
 }
 .project-text{
     width: 40%;
+    min-width: 20em;
 }
 .project-picture{
     width: 40%;
+    min-width: 20em;
     height: auto;
 }
 .project-picture .image{
