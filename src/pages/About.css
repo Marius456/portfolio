@@ -10,7 +10,8 @@
 }
 .box .imagediv{
     width: 40%;
-    height: 35em;
+    min-width: 20em;
+    height: auto;
 }
 .imagediv .image{
     width: 100%;
@@ -19,7 +20,8 @@
 }
 .box .details{
     width: 50%;
-    padding: 5% 10%;
+    min-width: 20em;
+    padding: 5% 5%;
 }
 .title{
     background-color: #B9C0CB;
@@ -44,7 +46,7 @@
 }
 .box .info{
     width: 100%;
-    padding: 5% 10%;
+    padding: 1% 0;
 }
 .info .info-box{
     box-sizing: border-box;
