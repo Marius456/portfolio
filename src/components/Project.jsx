@@ -1,5 +1,5 @@
 import eye from "../assets/eye.svg"
-import "./Project.css"
+import "./styles/Project.css"
 export function Project(props) {
     return (
         <>
@@ -22,7 +22,7 @@ export function Project(props) {
                     <span className="bold">Technologijos: </span>
                     <br />
                     {props.technology.map(item => (
-                        <span className="badge">{item.name}</span>
+                        <span key={"technology-" + item.name} className="badge">{item.name}</span>
                     ))}
                 </div>
                 <div className="project-picture">
