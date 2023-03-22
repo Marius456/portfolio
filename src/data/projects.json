@@ -1,8 +1,18 @@
 [
     {
-        "id": 1,
+        "name": "Cozy Apartments",
+        "description": "Sukurta kopijuojant https://cozyapartments.lt/. Naudotas ReactJS be papildomų dependency. Tai tik html, js ir css.",
+        "date": "2023-03-13",
+        "view_link": "https://cozyapartments.netlify.app/",
+        "code_link": "https://github.com/Marius456/cozyapartments",
+        "image": "imgs/cozyapartments.png",
+        "technology": [
+            {"name": "ReactJS"}
+        ]
+    },
+    {
         "name": "Politicians tracker",
-        "description": "Šis projektas skirtas analizuoti informaciją apie seimo narius.",
+        "description": "Šis projektas skirtas analizuoti informaciją apie seimo narius. Informaciją buvo paimta naudojant python beautifulsoup/selenium.",
         "date": "2023-02",
         "view_link": "https://marius456.github.io/politicians_tracker/",
         "code_link": "https://github.com/Marius456/politicians_tracker",
@@ -13,7 +23,6 @@
         ]
     },
     {
-        "id": 2,
         "name": "E-shop",
         "description": "Creating an e-commerce website for learning purposes. While doing it I focus on learning Javascript and ReactJS framework.",
         "date": "2023-01",
@@ -25,7 +34,6 @@
         ]
     },
     {
-        "id": 3,
         "name": "Sports activity planning and tracking system",
         "description": "This project was created for the final Bachelor's degree assessment.",
         "date": "2022-05",
