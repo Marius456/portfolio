@@ -5,7 +5,7 @@
         "date": "2023-03-13",
         "view_link": "https://cozyapartments.netlify.app/",
         "code_link": "https://github.com/Marius456/cozyapartments",
-        "image": "imgs/cozyapartments.png",
+        "image": "imgs/cozyapartments/cozyapartments.png",
         "technology": [
             {
                 "name": "ReactJS"
@@ -18,7 +18,7 @@
         "date": "2023-02-22",
         "view_link": "",
         "code_link": "https://github.com/Marius456/Mokiniu-registro-api",
-        "image": "imgs/cozyapartments.png",
+        "image": "",
         "technology": [
             {
                 "name": ".Net"
@@ -31,7 +31,7 @@
         "date": "2023-02",
         "view_link": "https://marius456.github.io/politicians_tracker/",
         "code_link": "https://github.com/Marius456/politicians_tracker",
-        "image": "imgs/politician_tracker.png",
+        "image": "imgs/politician_tracker/politician_tracker.png",
         "technology": [
             {
                 "name": "ReactJS"
@@ -44,7 +44,7 @@
         "date": "2023-02",
         "view_link": "",
         "code_link": "https://github.com/Marius456/scrapper",
-        "image": "imgs/politician_tracker.png",
+        "image": "",
         "technology": [
             {
                 "name": "Python"
@@ -57,7 +57,7 @@
         "date": "2023-01",
         "view_link": "https://marius456.github.io/eshop/",
         "code_link": "https://github.com/Marius456/eshop",
-        "image": "imgs/eshop.png",
+        "image": "imgs/eshop/eshop.png",
         "technology": [
             {
                 "name": "ReactJS"
@@ -70,7 +70,7 @@
         "date": "2022-05",
         "view_link": "https://marius456.github.io/ClientApp/",
         "code_link": "https://github.com/Marius456/ClientApp",
-        "image": "imgs/giveatry.png",
+        "image": "imgs/giveatry/giveatry.png",
         "technology": [
             {
                 "name": "Angular"
@@ -83,7 +83,7 @@
         "date": "2022-05",
         "view_link": "",
         "code_link": "https://github.com/Marius456/GiveATry",
-        "image": "imgs/giveatry.png",
+        "image": "",
         "technology": [
             {
                 "name": "ASP.NET Core"
@@ -92,14 +92,14 @@
     },
     {
         "name": "Bomberman",
-        "description": "Sukurtas žaidymas 'Bomberman'. Pagrindinis tikslas:  Kuriant funkcijas naudoti design paterns.",
+        "description": "Sukurtas žaidymas 'Bomberman'. Pagrindinis tikslas:  Kuriant funkcijas naudoti design paterns.\nGrupinis darbas.",
         "date": "2022-05",
         "view_link": "",
         "code_link": "https://github.com/Marius456/bomberman",
-        "image": "imgs/giveatry.png",
+        "image": "imgs/bomberman/bomberman.png",
         "technology": [
             {
-                "name": "C#"
+                "name": "C-sharp"
             }
         ]
     }

@@ -1,4 +1,4 @@
-import "./About.css";
+import "./styles/About.css";
 
 export function About() {
     return (
@@ -19,7 +19,28 @@ export function About() {
                 </div>
                 <div className="info">
                     <div className="title bold">
-                        IŠSILAVINIMAS
+                        Apie mane
+                    </div>
+                    <div className="info-box">
+                        <p>
+                            Esu lakoniškas žmogus. 
+                            <br/>
+                            Mano privalumai:
+                            <ul>
+                                <li>atsakingai atlieku darbą</li>
+                                <li>greitai išmokstu naujų dalykų (universitete mokiausi &gt;8 vidurkiu)</li>
+                            </ul>        
+                            Mano trūkumai:
+                            <ul>
+                                <li>esu uždaras/nekalbus</li>
+                                <li>esu atsargus priimti sprendimus (studijuodamas neieškojau darbo, todėl dabar neturiu darbo patirties)</li>
+                            </ul>                            
+                        </p>
+                    </div>
+                </div>
+                <div className="info">
+                    <div className="title bold">
+                        Išsilavinimas
                     </div>
                     <div className="info-box">
                         <p className="bold">
