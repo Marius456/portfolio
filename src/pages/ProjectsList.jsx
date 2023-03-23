@@ -1,9 +1,8 @@
 import { Col } from "react-bootstrap"
 import { useParams } from "react-router-dom"
 import { Project } from "../components/Project"
-import { Sidebar } from "../components/Sidebar"
 import projects from "../data/projects.json"
-import "./ProjectsList.css"
+import "./styles/ProjectsList.css"
 
 export function ProjectList() {
     const { tagName } = useParams();
