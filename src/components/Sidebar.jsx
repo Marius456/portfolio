@@ -38,6 +38,7 @@ export function Sidebar() {
         <>
             <div id="mySidebar" className="sidebar">
                 <a className="closebtn" onClick={closeNav} >x</a>
+                <a key={"tag-visi"} href={"#/projects/"}>Visi</a>
                 {tags_names.map(item => (
                     <a key={"tag-" + item.name} href={"#/projects/" + item.name}>{item.name}</a>
                 ))}
