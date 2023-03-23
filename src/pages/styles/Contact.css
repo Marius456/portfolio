@@ -1,10 +1,11 @@
-.contact-box{
+.contact-box {
     width: 100%;
     box-sizing: border-box;
     box-shadow: 0 0 5px #ccc;
     padding: 30px 30px;
 }
-.email{
+
+.email {
     background-color: gray;
     color: white;
     padding: 5px 5px;
@@ -12,7 +13,29 @@
     text-align: center;
     border-radius: 5px;
 }
+
 .email:hover {
     cursor: pointer;
     font-weight: bold;
+}
+
+.visuallyhidden {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px)
+}
+
+.button-tooltip-container {
+    display: flex;
+    margin-top: 16px;
+    min-height: 30px;
+
+}
+
+#custom-tooltip {
+    display: none;
+    margin-left: 40px;
+    padding: 5px 5px;
+    background-color: #000000df;
+    border-radius: 4px;
+    color: #fff;
 }
