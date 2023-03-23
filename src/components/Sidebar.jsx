@@ -43,8 +43,11 @@ export function Sidebar() {
                 ))}
             </div>
             <div id="main">
-                <button className="openbtn" onClick={openNav}>&#9776;</button>
-                <ProjectList/>
+                <div className="title-box">
+                    <h1>Projektai</h1>
+                    <button className="openbtn" onClick={openNav}>&#9776;</button>
+                </div>
+                <ProjectList />
             </div>
         </>
     )

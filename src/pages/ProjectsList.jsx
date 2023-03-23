@@ -13,8 +13,6 @@ export function ProjectList() {
     }
     return (
         <>
-            {/* <Sidebar /> */}
-            <h1>Projektai</h1>
             {filtered_projects.map(item => (
                 <Col key={item.name}>
                     <Project key={"project-" + item.name} {...item} />
