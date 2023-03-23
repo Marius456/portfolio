@@ -7,19 +7,48 @@
         "code_link": "https://github.com/Marius456/cozyapartments",
         "image": "imgs/cozyapartments.png",
         "technology": [
-            {"name": "ReactJS"}
+            {
+                "name": "ReactJS"
+            }
+        ]
+    },
+    {
+        "name": "Mokiniu registro API",
+        "description": "Tikslas \n 1. Sukurti „Mokiniu registro api“ RESTful API aplikaciją. \n2. Duombazės struktūra:  Mokykla, Tėvai, Vaikai. \nFunkciniai reikalavimai: \n1. Paduodamas tėvo vardas į API gražinamas mokyklų pavadinimai kuriuose mokosi nurodyto tėvo vaikai. \n2. Autentifikavimas: naudotojas autentifikuojamas vardu (el. pašto adresas) ir slaptažodžiu (min. 12 simbolių).",
+        "date": "2023-02-22",
+        "view_link": "",
+        "code_link": "https://github.com/Marius456/Mokiniu-registro-api",
+        "image": "imgs/cozyapartments.png",
+        "technology": [
+            {
+                "name": ".Net"
+            }
         ]
     },
     {
         "name": "Politicians tracker",
-        "description": "Šis projektas skirtas analizuoti informaciją apie seimo narius. Informaciją buvo paimta naudojant python beautifulsoup/selenium.",
+        "description": "Šis projektas skirtas analizuoti informaciją apie seimo narius.\nFunkcijos:\n1. Seimo narių salė ir nario informaciją.\n2. Narių sąrašas ir sortinimas pagal pasirinktą atributą.",
         "date": "2023-02",
         "view_link": "https://marius456.github.io/politicians_tracker/",
         "code_link": "https://github.com/Marius456/politicians_tracker",
         "image": "imgs/politician_tracker.png",
         "technology": [
-            {"name": "ReactJS"},
-            {"name": "Python"}
+            {
+                "name": "ReactJS"
+            }
+        ]
+    },
+    {
+        "name": "Politicians web scraper",
+        "description": "Informaciją buvo paimta naudojant python beautifulsoup/selenium.\nFunkcijos:\n1. Paima info iš lrs.lt apie esančius seimo narius.\n2. Paima info iš vmi.lt seimo narių ir jų sugyventinių turto deklaracijas.\n3. Išsaugo info JSON formatu.",
+        "date": "2023-02",
+        "view_link": "",
+        "code_link": "https://github.com/Marius456/scrapper",
+        "image": "imgs/politician_tracker.png",
+        "technology": [
+            {
+                "name": "Python"
+            }
         ]
     },
     {
@@ -30,19 +59,48 @@
         "code_link": "https://github.com/Marius456/eshop",
         "image": "imgs/eshop.png",
         "technology": [
-            {"name": "ReactJS"}
+            {
+                "name": "ReactJS"
+            }
         ]
     },
     {
-        "name": "Sports activity planning and tracking system",
+        "name": "Sports activity planning and tracking system(Frontend)",
         "description": "This project was created for the final Bachelor's degree assessment.",
         "date": "2022-05",
         "view_link": "https://marius456.github.io/ClientApp/",
+        "code_link": "https://github.com/Marius456/ClientApp",
+        "image": "imgs/giveatry.png",
+        "technology": [
+            {
+                "name": "Angular"
+            }
+        ]
+    },
+    {
+        "name": "Sports activity planning and tracking system(Backend)",
+        "description": "This project was created for the final Bachelor's degree assessment.",
+        "date": "2022-05",
+        "view_link": "",
         "code_link": "https://github.com/Marius456/GiveATry",
         "image": "imgs/giveatry.png",
         "technology": [
-            {"name": "Angular 12"},
-            {"name": "ASP.NET 3"}
+            {
+                "name": "ASP.NET Core"
+            }
+        ]
+    },
+    {
+        "name": "Bomberman",
+        "description": "Sukurtas žaidymas 'Bomberman'. Pagrindinis tikslas:  Kuriant funkcijas naudoti design paterns.",
+        "date": "2022-05",
+        "view_link": "",
+        "code_link": "https://github.com/Marius456/bomberman",
+        "image": "imgs/giveatry.png",
+        "technology": [
+            {
+                "name": "C#"
+            }
         ]
     }
 ]

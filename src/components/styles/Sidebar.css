@@ -5,7 +5,7 @@
     z-index: 1; /* Stay on top */
     top: 1;
     left: 0;
-    background-color: #111; /* Black*/
+    box-shadow: 0 0 5px #ccc;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -21,7 +21,8 @@
   }
   
   .sidebar a:hover {
-    color: #f1f1f1;
+    color: #212121;
+    font-weight: bold;
   }
   
   .sidebar .closebtn {
@@ -36,14 +37,19 @@
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
-    color: white;
+    box-shadow: 0 0 5px #ccc;
+    color: black;
     padding: 10px 15px;
     border: none;
+    border-radius: 10%;
+    margin-left: 1%;
   }
   
   .openbtn:hover {
-    background-color: #444;
+    background-color: rgb(141, 141, 141);
+  }
+  .title-box{
+    display: flex;
   }
   
   #main {

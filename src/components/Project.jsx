@@ -11,10 +11,11 @@ export function Project(props) {
                     <span>{props.description}</span>
                     <br />
                     <span className="bold">Nuorodos: </span>
-                    
-                    <a href={props.view_link}>
-                        <img src={eye} className="icon" alt="ViewWebsite" />
-                    </a>
+                    {props.view_link ?
+                        <a href={props.view_link}>
+                            <img src={eye} className="icon" alt="ViewWebsite" />
+                        </a>
+                        : null}
                     <a href={props.code_link}>
                         <img src="imgs/github.png" className="icon" alt="Github" />
                     </a>
