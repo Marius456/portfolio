@@ -1,6 +1,9 @@
 import "./styles/About.css";
 
 export function About() {
+    function downloadCV(){
+        window.open('files/CV.pdf', '_self');
+    }
     return (
         <>
             <div className="box">
@@ -12,9 +15,10 @@ export function About() {
                         <h1>Esu Marius Žilgužis</h1>
                     </div>
                     <div className="text">
-                        <p>Baigęs kursus studentas be darbo patirties.</p>
                         <p>Baigiau KTU "Programų sistemų" studijas.</p>
-                        <a href='files/CV.pdf' download>Atsisiųsti CV pdf failą</a>
+                        <div onClick={downloadCV} className="CV-button">
+                            <span>CV</span>
+                        </div>
                     </div>
                 </div>
                 <div className="info">
