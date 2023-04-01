@@ -12,6 +12,7 @@ export function Project(props) {
         setImagesList(props.images)
         if (imagesList.length != 0) {
             document.getElementById("project-" + props.name).style.display = 'block';
+            document.getElementById("bullet-" + imageId).style = 'active';
         }
     }
     function closeGallery() {
@@ -33,22 +34,26 @@ export function Project(props) {
     }
     return (
         <>
-            <div id={"project-" + props.name} className="gallery-slider">
-                <div className="background_blur" onClick={closeGallery} />
-                <img src={props.images[imageId]} className="image" />
-                <div className="icon-box-left" onClick={onClickHandlerLeft} style={{ cursor: 'pointer' }}>
+            <div id={"project-" + props.name} className="background_blur">
+                <div className="closebtn" onClick={closeGallery} >
+                    <span>X</span>
+                </div>
+                <div className="icon-box-left" onClick={onClickHandlerLeft}>
                     <img src="imgs/back.png" className="icon" />
                 </div>
-                <div className="icon-box-right" onClick={onClickHandlerRight} style={{ cursor: 'pointer' }}>
+                <div className="icon-box-right" onClick={onClickHandlerRight}>
                     <img src="imgs/next.png" className="icon" />
                 </div>
                 <div className="bullets">
                     {
                         imagesList.map((_item, index) =>
                         (
-                            <div className="bullet" onClick={() => setImageId(index)} />
+                            <div id={"bullet-" + index} className="bullet" onClick={() => setImageId(index)} />
                         ))
                     }
+                </div>
+                <div className="gallery-slider">
+                    <img src={props.images[imageId]} className="image" />
                 </div>
             </div>
             <div className="project-box">
