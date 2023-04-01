@@ -5,6 +5,12 @@
     padding: 30px 30px;
 }
 
+.contact-box  .icon {
+    width: 2em;
+    height: 2em;
+    object-fit: contain;
+    padding: 4px;
+}
 .email {
     background-color: gray;
     color: white;
