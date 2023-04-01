@@ -2,7 +2,6 @@ import { Col } from "react-bootstrap"
 import { useParams } from "react-router-dom"
 import { Project } from "../components/Project"
 import projects from "../data/projects.json"
-import "./styles/ProjectsList.css"
 
 export function ProjectList() {
     const { tagName } = useParams();

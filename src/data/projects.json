@@ -5,7 +5,11 @@
         "date": "2023-03-13",
         "view_link": "https://cozyapartments.netlify.app/",
         "code_link": "https://github.com/Marius456/cozyapartments",
-        "image": "imgs/cozyapartments/cozyapartments.png",
+        "images": [
+            "imgs/cozyapartments/cozyapartments.png",
+            "imgs/cozyapartments/1.png",
+            "imgs/cozyapartments/2.png"
+        ],
         "technology": [
             {
                 "name": "ReactJS"
@@ -18,7 +22,7 @@
         "date": "2023-02-22",
         "view_link": "",
         "code_link": "https://github.com/Marius456/Mokiniu-registro-api",
-        "image": "",
+        "images": [],
         "technology": [
             {
                 "name": ".Net"
@@ -31,7 +35,9 @@
         "date": "2023-02",
         "view_link": "https://marius456.github.io/politicians_tracker/",
         "code_link": "https://github.com/Marius456/politicians_tracker",
-        "image": "imgs/politician_tracker/politician_tracker.png",
+        "images": [
+            "imgs/politician_tracker/politician_tracker.png"
+        ],
         "technology": [
             {
                 "name": "ReactJS"
@@ -44,7 +50,7 @@
         "date": "2023-02",
         "view_link": "",
         "code_link": "https://github.com/Marius456/scrapper",
-        "image": "",
+        "images": [],
         "technology": [
             {
                 "name": "Python"
@@ -57,7 +63,12 @@
         "date": "2023-01",
         "view_link": "https://marius456.github.io/eshop/",
         "code_link": "https://github.com/Marius456/eshop",
-        "image": "imgs/eshop/eshop.png",
+        "images": [
+            "imgs/eshop/eshop.png",
+            "imgs/eshop/1.png",
+            "imgs/eshop/2.png",
+            "imgs/eshop/3.png"
+        ],
         "technology": [
             {
                 "name": "ReactJS"
@@ -70,7 +81,20 @@
         "date": "2022-05",
         "view_link": "https://marius456.github.io/ClientApp/",
         "code_link": "https://github.com/Marius456/ClientApp",
-        "image": "imgs/giveatry/giveatry.png",
+        "images": [
+            "imgs/giveatry/giveatry.png",
+            "imgs/giveatry/categories.png",
+            "imgs/giveatry/plans-grid.png",
+            "imgs/giveatry/plan-1.png",
+            "imgs/giveatry/plan-2.png",
+            "imgs/giveatry/plan-3.png",
+            "imgs/giveatry/plan-4.png",
+            "imgs/giveatry/dashboard.png",
+            "imgs/giveatry/messages.png",
+            "imgs/giveatry/created-plans.png",
+            "imgs/giveatry/plan-progress.png",
+            "imgs/giveatry/admin-users.png"
+        ],
         "technology": [
             {
                 "name": "Angular"
@@ -83,7 +107,7 @@
         "date": "2022-05",
         "view_link": "",
         "code_link": "https://github.com/Marius456/GiveATry",
-        "image": "",
+        "images": [],
         "technology": [
             {
                 "name": "ASP.NET Core"
@@ -96,7 +120,9 @@
         "date": "2022-05",
         "view_link": "",
         "code_link": "https://github.com/Marius456/bomberman",
-        "image": "imgs/bomberman/bomberman.png",
+        "images": [
+            "imgs/bomberman/bomberman.png"
+        ],
         "technology": [
             {
                 "name": "C-sharp"

@@ -9,6 +9,109 @@
     padding: 30px 30px;
     margin: 10px;
 }
+
+
+
+.background_blur{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.468);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.background_blur .closebtn {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 36px;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 50px;
+    line-height: 40px;
+    aspect-ratio: 1 / 1;
+    text-align: center;
+    vertical-align: text-top;
+    border: 3px solid white;
+  }
+  .background_blur .closebtn:hover {
+    font-weight: bold;
+    background-color: #fff;
+  }
+
+.gallery-slider{
+    height: 80%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.gallery-slider .image{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+.icon-box-left,
+.icon-box-right {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 2;
+    width: 5%;
+    height: auto;
+    cursor: pointer;
+}
+
+.icon-box-left {
+    left: 0px;
+}
+
+.icon-box-right {
+    right: 0px;
+}
+
+.icon-box-left .icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.icon-box-right .icon {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.bullets {
+    position: absolute;
+    bottom: 1%;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bullets .bullet {
+    width: 20px;
+    aspect-ratio: 1 / 1;
+    margin-right:10px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.bullet:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.bullet:focus{
+    background-color: #fff;
+}
+
+
+
 .project-title{
     text-align: center;
     width: 100%;
@@ -28,6 +131,10 @@
     height: 100%;
     object-fit:contain;
 }
+
+.project-picture .image:hover{
+    cursor: pointer;
+}
 .badge {
     background-color: rgb(71, 71, 164);
     color: white;
@@ -36,7 +143,7 @@
     border-radius: 5px;
     margin: 5px;
   }
-  .icon {
+  .project-text  .icon {
       width: 2em;
       height: 2em;
       object-fit: contain;
