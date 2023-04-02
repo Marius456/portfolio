@@ -1,5 +1,46 @@
 [
     {
+        "name": "Sportavimo veiklų planavimo ir sekimo sistema(Frontend)",
+        "description": "Tai sistema, kuri leis žmonėms susirasti sistemos naudotojų sukurtus sportavimo planus, sekti pasirinktų planų pratimus kalendoriuje, bendrauti su žmonėmis, kurie seka tą patį planą. Naudojai galės įvertinti sportavimo planą, peržiūrėti kitų naudotojų įvertinimus. Administratorius gali pakeisti egzistuojančio naudotojo rolę arba ištrinti naudotoją.\nSistema turės realizuotas roles. Paprastas naudotojas gali sekti egzistuojantį planą, bendrauti su kitais naudotojais arba įvertinti sporto planą. Darbuotojas galės kurti planus, pratimus ir naudotis paprastomis naudotojo funkcijomis. Taip bus apsisaugota nuo robotų, kad jie nekurtų nereikalingų planų. Naudotojai galės peržiūrėti kito naudotojo paskyrą, kurioje bus pavaizduoti visi to naudotojo sukurti planai ir įvertinimai.",
+        "date": "2022-05",
+        "view_link": "https://marius456.github.io/ClientApp/",
+        "code_link": "https://github.com/Marius456/ClientApp",
+        "images": [
+            "imgs/giveatry/giveatry.png",
+            "imgs/giveatry/categories.png",
+            "imgs/giveatry/plans-grid.png",
+            "imgs/giveatry/plan-1.png",
+            "imgs/giveatry/plan-2.png",
+            "imgs/giveatry/plan-3.png",
+            "imgs/giveatry/plan-4.png",
+            "imgs/giveatry/dashboard.png",
+            "imgs/giveatry/messages.png",
+            "imgs/giveatry/created-plans.png",
+            "imgs/giveatry/plan-progress.png",
+            "imgs/giveatry/admin-users.png"
+        ],
+        "technology": [
+            {
+                "name": "Angular"
+            }
+        ]
+    },
+    {
+        "name": "Sportavimo veiklų planavimo ir sekimo sistema(Backend)",
+        "description": "„GiveATry“ sistemą sudaro penki skyriai: pratimų, planų, žinučių, įvertinimų ir naudotojų. Pratimų skyrius, kuris turi funkcijas susijusias su pratimų valdymu. Žinučių skyrius leidžia naudotojams gauti ir pridėti naujas žinutes. Įvertinimai naudotojams leidžia pridėti naujus plano įvertinimus, o darbuotojai ir administratoriai ištrinti juos. Planų skyrius leidžia darbuotojams ir administratoriams valdyti planus, pridėti prie plano pratimus. Naudotojų skyrius leidžia naudotojams keisti savo profilio informaciją. Administratoriai gali pakeisti naudotojo rolę sistemoje arba ištrinti naudotoją. Sistema turi realizuotą prisijungimą ir atsijungimą. „GiveATry“ sistemoje yra realizuoti atskiri sistemos aktoriai",
+        "date": "2022-05",
+        "view_link": "",
+        "code_link": "https://github.com/Marius456/GiveATry",
+        "images": [
+            "imgs/giveatry/GiveATryBackend.png"
+        ],
+        "technology": [
+            {
+                "name": "ASP.NET Core"
+            }
+        ]
+    },
+    {
         "name": "Cozy Apartments",
         "description": "Sukurta kopijuojant https://cozyapartments.lt/. Naudotas ReactJS be papildomų dependency. Tai tik html, js ir css.",
         "date": "2023-03-13",
@@ -17,19 +58,6 @@
         ]
     },
     {
-        "name": "Mokiniu registro API",
-        "description": "Tikslas \n 1. Sukurti „Mokiniu registro api“ RESTful API aplikaciją. \n2. Duombazės struktūra:  Mokykla, Tėvai, Vaikai. \nFunkciniai reikalavimai: \n1. Paduodamas tėvo vardas į API gražinamas mokyklų pavadinimai kuriuose mokosi nurodyto tėvo vaikai. \n2. Autentifikavimas: naudotojas autentifikuojamas vardu (el. pašto adresas) ir slaptažodžiu (min. 12 simbolių).",
-        "date": "2023-02-22",
-        "view_link": "",
-        "code_link": "https://github.com/Marius456/Mokiniu-registro-api",
-        "images": [],
-        "technology": [
-            {
-                "name": ".Net"
-            }
-        ]
-    },
-    {
         "name": "Politicians tracker",
         "description": "Šis projektas skirtas analizuoti informaciją apie seimo narius.\nFunkcijos:\n1. Seimo narių salė ir nario informaciją.\n2. Narių sąrašas ir sortinimas pagal pasirinktą atributą.",
         "date": "2023-02",
@@ -41,6 +69,19 @@
         "technology": [
             {
                 "name": "ReactJS"
+            }
+        ]
+    },
+    {
+        "name": "Mokiniu registro API",
+        "description": "Tikslas \n 1. Sukurti „Mokiniu registro api“ RESTful API aplikaciją. \n2. Duombazės struktūra:  Mokykla, Tėvai, Vaikai. \nFunkciniai reikalavimai: \n1. Paduodamas tėvo vardas į API gražinamas mokyklų pavadinimai kuriuose mokosi nurodyto tėvo vaikai. \n2. Autentifikavimas: naudotojas autentifikuojamas vardu (el. pašto adresas) ir slaptažodžiu (min. 12 simbolių).",
+        "date": "2023-02-22",
+        "view_link": "",
+        "code_link": "https://github.com/Marius456/Mokiniu-registro-api",
+        "images": [],
+        "technology": [
+            {
+                "name": ".Net"
             }
         ]
     },
@@ -72,45 +113,6 @@
         "technology": [
             {
                 "name": "ReactJS"
-            }
-        ]
-    },
-    {
-        "name": "Sports activity planning and tracking system(Frontend)",
-        "description": "This project was created for the final Bachelor's degree assessment.",
-        "date": "2022-05",
-        "view_link": "https://marius456.github.io/ClientApp/",
-        "code_link": "https://github.com/Marius456/ClientApp",
-        "images": [
-            "imgs/giveatry/giveatry.png",
-            "imgs/giveatry/categories.png",
-            "imgs/giveatry/plans-grid.png",
-            "imgs/giveatry/plan-1.png",
-            "imgs/giveatry/plan-2.png",
-            "imgs/giveatry/plan-3.png",
-            "imgs/giveatry/plan-4.png",
-            "imgs/giveatry/dashboard.png",
-            "imgs/giveatry/messages.png",
-            "imgs/giveatry/created-plans.png",
-            "imgs/giveatry/plan-progress.png",
-            "imgs/giveatry/admin-users.png"
-        ],
-        "technology": [
-            {
-                "name": "Angular"
-            }
-        ]
-    },
-    {
-        "name": "Sports activity planning and tracking system(Backend)",
-        "description": "This project was created for the final Bachelor's degree assessment.",
-        "date": "2022-05",
-        "view_link": "",
-        "code_link": "https://github.com/Marius456/GiveATry",
-        "images": [],
-        "technology": [
-            {
-                "name": "ASP.NET Core"
             }
         ]
     },
