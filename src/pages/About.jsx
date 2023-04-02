@@ -2,7 +2,7 @@ import "./styles/About.css";
 
 export function About() {
     function downloadCV(){
-        window.open('files/CV.pdf', '_self');
+        window.open('files/CV - Marius Žilgužis.pdf', '_self');
     }
     return (
         <>
