@@ -34,9 +34,11 @@ export function Project(props) {
                         <span key={"technology-" + item.name} className="badge">{item.name}</span>
                     ))}
                 </div>
+                {props.images.length != 0? 
                 <div className="project-picture" onClick={openGallery}>
                     <img src={props.images[0]} className="image" />
                 </div>
+                :null}
             </div>
         </>
     )
