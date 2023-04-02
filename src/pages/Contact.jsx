@@ -14,6 +14,10 @@ export function Contact() {
             <h1>Kontaktai</h1>
             <div className="contact-box">
                 <p>Mane galite pasiekti šiais kontaktais:</p>
+                <p>Telefonas:</p>
+                <div className="button-tooltip-container">
+                    <p className="phone">862911222</p>
+                </div>
                 <p>Email:</p>
                 <div className="button-tooltip-container">
                     <p className="email" onClick={copy}>marius.zilguzis@gmail.com</p>
