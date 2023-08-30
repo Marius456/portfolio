@@ -42,7 +42,7 @@ export function ProjectDetails() {
           ))}
         </div>
         {project.images.length != 0 ? (
-          <div className="project-picture" onClick={openGallery}>
+          <div className="project_picture_details" onClick={openGallery}>
             <img src={project.images[0]} className="image" />
           </div>
         ) : null}
