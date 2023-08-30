@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Sportavimo veiklų planavimo ir sekimo sistema",
     "description": "Tai sistema, kuri leis žmonėms susirasti sistemos naudotojų sukurtus sportavimo planus, sekti pasirinktų planų pratimus kalendoriuje, bendrauti su žmonėmis, kurie seka tą patį planą. Naudojai galės įvertinti sportavimo planą, peržiūrėti kitų naudotojų įvertinimus. Administratorius gali pakeisti egzistuojančio naudotojo rolę arba ištrinti naudotoją.\nSistema turės realizuotas roles. Paprastas naudotojas gali sekti egzistuojantį planą, bendrauti su kitais naudotojais arba įvertinti sporto planą. Darbuotojas galės kurti planus, pratimus ir naudotis paprastomis naudotojo funkcijomis. Taip bus apsisaugota nuo robotų, kad jie nekurtų nereikalingų planų. Naudotojai galės peržiūrėti kito naudotojo paskyrą, kurioje bus pavaizduoti visi to naudotojo sukurti planai ir įvertinimai.",
     "date": "2022-05",
@@ -29,6 +30,7 @@
     ]
   },
   {
+    "id": 2,
     "name": "Cozy Apartments",
     "description": "Sukurta kopijuojant https://cozyapartments.lt/. Naudotas ReactJS be papildomų dependency. Tai tik html, js ir css.",
     "date": "2023-03-13",
@@ -46,6 +48,7 @@
     ]
   },
   {
+    "id": 3,
     "name": "Politicians tracker",
     "description": "Šis projektas skirtas analizuoti informaciją apie seimo narius.\nFunkcijos:\n1. Seimo narių salė ir nario informaciją.\n2. Narių sąrašas ir sortinimas pagal pasirinktą atributą.\nInformaciją buvo paimta naudojant python beautifulsoup/selenium.\nFunkcijos:\n1. Paima info iš lrs.lt apie esančius seimo narius.\n2. Paima info iš vmi.lt seimo narių ir jų sugyventinių turto deklaracijas.\n3. Išsaugo info JSON formatu.",
     "date": "2023-02",
@@ -62,6 +65,7 @@
     ]
   },
   {
+    "id": 4,
     "name": "E-shop",
     "description": "Creating an e-commerce website for learning purposes. While doing it I focus on learning Javascript and ReactJS framework.",
     "date": "2023-01",
@@ -80,6 +84,7 @@
     ]
   },
   {
+    "id": 5,
     "name": "Bomberman",
     "description": "Sukurtas žaidymas 'Bomberman'. Pagrindinis tikslas:  Kuriant funkcijas naudoti design paterns.\nGrupinis darbas.",
     "date": "2022-05",

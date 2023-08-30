@@ -46,7 +46,7 @@ export function Sidebar() {
           Visi
         </a>
         {tags_names.map((item) => (
-          <a key={"tag-" + item.name} href={"#/projects/" + item.name}>
+          <a key={"tag-" + item.name} href={"#/projects/filter/" + item.name}>
             {item.name}
           </a>
         ))}

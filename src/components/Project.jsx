@@ -12,7 +12,7 @@ export function Project(projectDetails) {
     }
   }
   return (
-    <Nav.Link to={"/projects/" + projectDetails.name} as={NavLink}>
+    <Nav.Link to={"/projects/" + projectDetails.id} as={NavLink}>
       <div className="project_box">
         <div>
           {projectDetails.images.length != 0 ? (

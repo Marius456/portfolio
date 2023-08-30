@@ -1,4 +1,3 @@
-import { Col } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { Project } from "../components/Project";
 import "./styles/ProjectsList.css";
