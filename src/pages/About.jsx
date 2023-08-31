@@ -15,31 +15,18 @@ export function About() {
                         <h1>Esu Marius Žilgužis</h1>
                     </div>
                     <div className="text">
-                        <p>Baigiau KTU "Programų sistemų" studijas.</p>
-                        <div onClick={downloadCV} className="CV-button">
-                            <span>CV</span>
-                        </div>
-                    </div>
-                </div>
-                <div className="info">
-                    <div className="title bold">
-                        Apie mane
-                    </div>
-                    <div className="info-box">
                         <p>
-                            Esu lakoniškas žmogus. 
-                            <br/>
                             Mano privalumai:
                             <ul>
                                 <li>atsakingai atlieku darbą</li>
-                                <li>greitai išmokstu naujų dalykų (universitete mokiausi &gt;8 vidurkiu)</li>
-                            </ul>        
-                            Mano trūkumai:
-                            <ul>
-                                <li>esu uždaras/nekalbus</li>
-                                <li>esu atsargus priimti sprendimus (studijuodamas neieškojau darbo, todėl dabar neturiu darbo patirties)</li>
-                            </ul>                            
+                                <li>greitai išmokstu naujų dalykų</li>
+                                <li>siekiu tobulėti</li>
+                            </ul>     
+                            Šiuo metu ieškau darbo. Nebijau iššūkių, todėl nesibaidau išmokti naują programavimo kalbą ar technologiją jei reikia.      
                         </p>
+                        <div onClick={downloadCV} className="CV-button">
+                            <span>CV</span>
+                        </div>
                     </div>
                 </div>
                 <div className="info">
@@ -81,6 +68,20 @@ export function About() {
                     </div>
                     <div className="info-box">
                         <p className="bold">
+                            Flexn Academy
+                        </p>
+                        <p>
+                            Praktika
+                        </p>
+                        <p>
+                            2023/05 - 2023/08
+                        </p>
+                        <p>
+                            Praktikos metu reikėjo sukurti filmų peržiūros sistemą. Kas dvi savaites buvo pristatomas progresas. Per dvi savaites reikėjo sukurti veikiančia aplikaciją su duota technologiją. Programavimo kalba - typescript. Panaudotos technologijos sukurti sistemą: Vanilla JS, ReactJS, NextJS, React Native, React Native TV, ReNative.
+                        </p>
+                    </div>
+                    <div className="info-box">
+                        <p className="bold">
                             Kauno miesto poliklinika
                         </p>
                         <p>
@@ -90,10 +91,10 @@ export function About() {
                             IT pagalbinis darbuotojas
                         </p>
                         <p>
-                            01/02/2021 - 31/05/2021
+                            2021/02 - 2021/05
                         </p>
                         <p>
-                            Sukuriau sportavimo planų planavimo ir sekimo sistemą, kurią apgyniau bakalaurinio darbo gynime.
+                            Sukuriau sportavimo planų planavimo ir sekimo sistemą, kurią apgyniau bakalaurinio darbo gynime. Panaudotos technologijos: ASP.NET Core ir Angular 12.
                         </p>
                     </div>
                 </div>
