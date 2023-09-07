@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Gallery } from "../components/Gallery";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import projects from "../data/projects.json";
 import eye from "../assets/eye.svg";
 import "./styles/ProjectDetails.css";
@@ -10,12 +10,15 @@ export function ProjectDetails() {
   const project = projects.find((item) => item.id == id);
 
   const [photoID, setphotoID] = useState(0);
+  const timer = () => setphotoID(photoID + 1);
 
-  const changePhoto = () => {
-    if (photoID >= project.images.length - 1) setphotoID(0);
-    else setphotoID((photoID) => photoID + 1);
-  };
-  setInterval(changePhoto, 5000);
+  useEffect(() => {
+    if (photoID >= project.images.length - 1) {
+      setphotoID(0);
+    }
+    const id = setInterval(timer, 1000);
+    return () => clearInterval(id);
+  }, [photoID]);
 
   function openGallery() {
     if (project.images.length != 0) {
