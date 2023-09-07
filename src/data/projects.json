@@ -1,10 +1,78 @@
 [
   {
     "id": 1,
+    "name": "Bomberman",
+    "description": "Sukurtas žaidymas 'Bomberman'. Pagrindinis tikslas:  Kuriant funkcijas naudoti design paterns.\nGrupinis darbas.",
+    "date": "2022-05",
+    "view_link": "",
+    "code_link": "https://github.com/Marius456/bomberman",
+    "images": ["imgs/bomberman/bomberman.png"],
+    "technology": [
+      {
+        "name": "C-sharp"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "E-shop",
+    "description": "Creating an e-commerce website for learning purposes. While doing it I focus on learning Javascript and ReactJS framework.",
+    "date": "2023-01",
+    "view_link": "https://marius456.github.io/eshop/",
+    "code_link": "https://github.com/Marius456/eshop",
+    "images": [
+      "imgs/eshop/eshop.png",
+      "imgs/eshop/1.png",
+      "imgs/eshop/2.png",
+      "imgs/eshop/3.png"
+    ],
+    "technology": [
+      {
+        "name": "ReactJS"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Cozy Apartments",
+    "description": "Sukurta kopijuojant https://cozyapartments.lt/. Naudotas ReactJS be papildomų dependency. Tai tik html, js ir css.",
+    "date": "2023-03-13",
+    "view_link": "https://cozyapartments.netlify.app/",
+    "code_link": "https://github.com/Marius456/cozyapartments",
+    "images": [
+      "imgs/cozyapartments/cozyapartments.png",
+      "imgs/cozyapartments/1.png",
+      "imgs/cozyapartments/2.png"
+    ],
+    "technology": [
+      {
+        "name": "ReactJS"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Politicians tracker",
+    "description": "Šis projektas skirtas analizuoti informaciją apie seimo narius.\nFunkcijos:\n1. Seimo narių salė ir nario informaciją.\n2. Narių sąrašas ir sortinimas pagal pasirinktą atributą.\nInformaciją buvo paimta naudojant python beautifulsoup/selenium.\nFunkcijos:\n1. Paima info iš lrs.lt apie esančius seimo narius.\n2. Paima info iš vmi.lt seimo narių ir jų sugyventinių turto deklaracijas.\n3. Išsaugo info JSON formatu.",
+    "date": "2023-02",
+    "view_link": "https://marius456.github.io/politicians_tracker/",
+    "code_link": "https://github.com/Marius456/politicians_tracker",
+    "images": ["imgs/politician_tracker/politician_tracker.png"],
+    "technology": [
+      {
+        "name": "ReactJS"
+      },
+      {
+        "name": "Python"
+      }
+    ]
+  },
+  {
+    "id": 5,
     "name": "Sportavimo veiklų planavimo ir sekimo sistema",
     "description": "Tai sistema, kuri leis žmonėms susirasti sistemos naudotojų sukurtus sportavimo planus, sekti pasirinktų planų pratimus kalendoriuje, bendrauti su žmonėmis, kurie seka tą patį planą. Naudojai galės įvertinti sportavimo planą, peržiūrėti kitų naudotojų įvertinimus. Administratorius gali pakeisti egzistuojančio naudotojo rolę arba ištrinti naudotoją.\nSistema turės realizuotas roles. Paprastas naudotojas gali sekti egzistuojantį planą, bendrauti su kitais naudotojais arba įvertinti sporto planą. Darbuotojas galės kurti planus, pratimus ir naudotis paprastomis naudotojo funkcijomis. Taip bus apsisaugota nuo robotų, kad jie nekurtų nereikalingų planų. Naudotojai galės peržiūrėti kito naudotojo paskyrą, kurioje bus pavaizduoti visi to naudotojo sukurti planai ir įvertinimai.",
     "date": "2022-05",
-    "view_link": "https://marius456.github.io/ClientApp/",
+    "view_link": "",
     "code_link": "https://github.com/Marius456/ClientApp",
     "images": [
       "imgs/giveatry/giveatry.png",
@@ -30,70 +98,37 @@
     ]
   },
   {
-    "id": 2,
-    "name": "Cozy Apartments",
-    "description": "Sukurta kopijuojant https://cozyapartments.lt/. Naudotas ReactJS be papildomų dependency. Tai tik html, js ir css.",
-    "date": "2023-03-13",
-    "view_link": "https://cozyapartments.netlify.app/",
-    "code_link": "https://github.com/Marius456/cozyapartments",
+    "id": 6,
+    "name": "Filmų įvertinimų peržiūros sistema",
+    "description": "Sukurta mokantis Flexn Academy. Tris mėnesius kurta sistema naudojant dvieju savaičiu sprint Agile metodiką. Kiekvienai technologijai buvo skirtos 2 savaitės per kurias reikėjo padaryti veikiančią sistemą.",
+    "date": "2023-08",
+    "view_link": "",
+    "code_link": "https://github.com/Marius456/reflix",
     "images": [
-      "imgs/cozyapartments/cozyapartments.png",
-      "imgs/cozyapartments/1.png",
-      "imgs/cozyapartments/2.png"
+      "imgs/renative/1.png",
+      "imgs/renative/2.png",
+      "imgs/renative/3.png",
+      "imgs/renative/4.png",
+      "imgs/renative/5.png",
+      "imgs/renative/6.png",
+      "imgs/renative/7.png",
+      "imgs/renative/8.png"
     ],
     "technology": [
       {
-        "name": "ReactJS"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Politicians tracker",
-    "description": "Šis projektas skirtas analizuoti informaciją apie seimo narius.\nFunkcijos:\n1. Seimo narių salė ir nario informaciją.\n2. Narių sąrašas ir sortinimas pagal pasirinktą atributą.\nInformaciją buvo paimta naudojant python beautifulsoup/selenium.\nFunkcijos:\n1. Paima info iš lrs.lt apie esančius seimo narius.\n2. Paima info iš vmi.lt seimo narių ir jų sugyventinių turto deklaracijas.\n3. Išsaugo info JSON formatu.",
-    "date": "2023-02",
-    "view_link": "https://marius456.github.io/politicians_tracker/",
-    "code_link": "https://github.com/Marius456/politicians_tracker",
-    "images": ["imgs/politician_tracker/politician_tracker.png"],
-    "technology": [
+        "name": "NodeJS"
+      },
+      {
+        "name": "Vanilla JS"
+      },
       {
         "name": "ReactJS"
       },
       {
-        "name": "Python"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "E-shop",
-    "description": "Creating an e-commerce website for learning purposes. While doing it I focus on learning Javascript and ReactJS framework.",
-    "date": "2023-01",
-    "view_link": "https://marius456.github.io/eshop/",
-    "code_link": "https://github.com/Marius456/eshop",
-    "images": [
-      "imgs/eshop/eshop.png",
-      "imgs/eshop/1.png",
-      "imgs/eshop/2.png",
-      "imgs/eshop/3.png"
-    ],
-    "technology": [
+        "name": "NextJS"
+      },
       {
-        "name": "ReactJS"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Bomberman",
-    "description": "Sukurtas žaidymas 'Bomberman'. Pagrindinis tikslas:  Kuriant funkcijas naudoti design paterns.\nGrupinis darbas.",
-    "date": "2022-05",
-    "view_link": "",
-    "code_link": "https://github.com/Marius456/bomberman",
-    "images": ["imgs/bomberman/bomberman.png"],
-    "technology": [
-      {
-        "name": "C-sharp"
+        "name": "React Native"
       }
     ]
   }

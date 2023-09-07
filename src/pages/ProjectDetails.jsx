@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Gallery } from "../components/Gallery";
+import { useState } from "react";
 import projects from "../data/projects.json";
 import eye from "../assets/eye.svg";
 import "./styles/ProjectDetails.css";
@@ -7,6 +8,15 @@ import "./styles/ProjectDetails.css";
 export function ProjectDetails() {
   const { id } = useParams();
   const project = projects.find((item) => item.id == id);
+
+  const [photoID, setphotoID] = useState(0);
+
+  const changePhoto = () => {
+    if (photoID >= project.images.length - 1) setphotoID(0);
+    else setphotoID((photoID) => photoID + 1);
+  };
+  setInterval(changePhoto, 5000);
+
   function openGallery() {
     if (project.images.length != 0) {
       document.getElementById("project-" + project.name).style.display =
@@ -43,7 +53,7 @@ export function ProjectDetails() {
         </div>
         {project.images.length != 0 ? (
           <div className="project_picture_details" onClick={openGallery}>
-            <img src={project.images[0]} className="image" />
+            <img src={project.images[photoID]} className="image" />
           </div>
         ) : null}
       </div>
