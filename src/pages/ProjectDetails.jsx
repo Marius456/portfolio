@@ -16,7 +16,7 @@ export function ProjectDetails() {
     if (photoID >= project.images.length - 1) {
       setphotoID(0);
     }
-    const id = setInterval(timer, 1000);
+    const id = setInterval(timer, 5000);
     return () => clearInterval(id);
   }, [photoID]);
 
