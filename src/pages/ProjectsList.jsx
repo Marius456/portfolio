@@ -14,7 +14,7 @@ export function ProjectsList() {
   return (
     <>
       <div className="wrapper_grid">
-        {filtered_projects.map((item) => (
+        {filtered_projects.toReversed().map((item) => (
           <Project key={"project-" + item.name} {...item} />
         ))}
       </div>
