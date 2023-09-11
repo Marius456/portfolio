@@ -102,8 +102,8 @@
     "name": "Filmų įvertinimų peržiūros sistema",
     "description": "Sukurta mokantis Flexn Academy. Tris mėnesius kurta sistema naudojant dvieju savaičiu sprint Agile metodiką. Kiekvienai technologijai buvo skirtos 2 savaitės per kurias reikėjo padaryti veikiančią sistemą.",
     "date": "2023-08",
-    "view_link": "",
-    "code_link": "https://github.com/Marius456/reflix",
+    "view_link": "https://reflix-nextjs-jq5lcj4rv-44421u5-gmailcom.vercel.app/",
+    "code_link": "https://github.com/Marius456/reflix_nextjs",
     "images": [
       "imgs/renative/1.png",
       "imgs/renative/2.png",
